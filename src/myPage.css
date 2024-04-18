@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "normal";
+  src: url("C:\Users\Choi yea jun\Documents\team Project\new\public\font\NanumBarunGothic.ttf");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("C:\Users\Choi yea jun\Documents\team Project\new\public\font\NanumBarunGothicBold.ttf");
+}
+
+@font-face {
+  font-family: "light";
+  src : url("C:\Users\Choi yea jun\Documents\team Project\new\public\font\NanumBarunGothicLight.ttf");
+}
+
+@font-face {
+  font-family: "ultraLight";
+  src : url("C:\Users\Choi yea jun\Documents\team Project\new\public\font\NanumBarunGothicUltraLight.ttf");
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   margin: 0;
+   background-color: white; /* 배경색을 변경하거나 제거할 수 있습니다. */
+ }
+ 
+ .myPage_All {
+   width: 900px;
+   height: 219px;
+   flex-direction: column;
+   align-items: center;
+   display:flex;
+ }
+ 
+ .mypage_Header {
+   width: 166px;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   display: inline-flex;
+   font-family: 'bold';
+ }
+ 
+ .myPage_Head {
+   padding-top: 50px;
+   text-align: center;
+   color: black;
+   font-size: 35px;
+   font-family: 'bold';
+   font-weight: 600;
+   word-wrap: break-word;
+ }
+ 
+ .myPage_Nav {
+   padding-top: 50px;
+   width: 900px;
+   justify-content: center;
+   align-items: flex-start;
+   display: flex;
+   margin :auto;
+   text-align: center;
+   color: black;
+   font-size: 20px;
+   font-family: 'normal';
+   font-weight: 400;
+   word-wrap: break-word;
+   white-space: nowrap;
+   
+ }
+ 
+
+ .myHeart_Btn,
+.myClothe_Btn,
+.myInfo_Btn {
+   flex: 1 1 0;
+  width: 150px;
+  height: 50px;
+  padding: 10px 25px;  
+  border: 2px solid #000;
+  font-family: 'normal';
+  font-size: 20px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+
+}
+
+.myHeart_Btn:hover,
+.myClothe_Btn:hover,
+.myInfo_Btn:hover {
+  box-shadow:
+    7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+
+
+.myStyle_Box {
+   width : 100vw;
+   margin-top: 50px;
+   justify-content: space-between; 
+   align-items: flex-start;
+   gap :20px;
+   display: flex;
+   flex-wrap : wrap;
+   
+
+  }
+ 
+ .myHeartStyle {
+  font-family: 'normal';
+  margin-left: 15px; 
+  margin-right :10px;
+  padding-left: 10px;
+   width :180;
+   height : 25;
+   text-align: left;
+   font-weight: 400;
+
+ }
+ 
+ .more_View {
+   padding-right: 15px;
+   text-align: right;
+   font-weight: 400;
+ }
+ 
+
+
+ 
+.distinct_Block{
+   border :2px #d4d4d4  solid;
+   width : 100vw;
+   margin-top : 10px;
+}
+
+.myStyle_imgs{
+  margin-top: 50px;
+  display:flex ;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.img_Box {
+  width : auto;
+  height : 380px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+  justify-content: left;
+  border-radius: 5%;
+  border : 2px #f4f4f4 solid;
+}
+
